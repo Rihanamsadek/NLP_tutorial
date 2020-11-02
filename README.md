@@ -1,2 +1,2 @@
 # NLP_tutorial
-Basic and Advanced functions for Natural Language Processing tasks using spacy
+Natural language processing involves the reading and understanding of spoken or written language through the medium of a computer. This includes, for example, the automatic translation of one language into another, but also spoken word recognition, or the automatic answering of questions. In this tutorial, we will see basic and advanced functions for Natural Language Processing tasks using spacy, this tutorial is inspired by the Datacamp course developed and presented by Ines montani. Some personal changes have been added in order to make the topic seem a bit clearer. 
