@@ -99,3 +99,10 @@ doc.ents = [span]
 
 # Print entities' text and labels
 print([(ent.text, ent.label_) for ent in doc.ents])
+
+for token in doc:
+    # Check if the current token is a proper noun
+    if token.pos_ == 'PROPN':
+        # Check if the next token is a verb
+        if doc[token.i + 1].pos_ == 'VERB':
+            print('Found a verb after a proper noun!')
